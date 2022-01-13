@@ -6,6 +6,7 @@
 html{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    /* background-color: #d4d4d4; */
 }
 header{
     position: sticky;
@@ -33,7 +34,7 @@ header li{
 
 }
 header li:hover{
-    background-color: black;
+    background-color: rgb(75, 75, 75);
     border: white 2px solid;
 }
 header li a:hover{
@@ -57,10 +58,11 @@ main{
     width: 80%;
     margin: auto;
 }
-#maintitle{
+.maintitle{
     font-family: 'Comic Neue', cursive;
     font-size: 40px;
     text-align: center;
+    padding-top: 20px;
 }
 #maintitle h1{
     padding: 0.3em 0 0.3em 0;
@@ -69,9 +71,64 @@ main{
 #maintitle p{
     font-style: italic;
 }
-#imageacc{
+.imageacc{
     display: flex;
     justify-content: center;
+}
+#title_2{
+    padding-bottom: 5%;
+}
+.pres_general{
+    padding: 5em 0 5em 0;
+}
+.pres_p{
+    padding-top: 3em;
+    padding-left: 2em;
+    line-height: 2em;
+}
+.date{
+    font-weight: 700;
+    font-size: 20px;
+}
+/* Activités */
+.activities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    text-align: center;
+    padding: 5em 0 5em 0;
+
+}
+.activities img{
+    width: 80%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+
+}
+#crea{
+    color:#E71A7A ;
+    border: 1px solid #E71A7A ;
+    border-radius: 10px;
+    margin: 0 5em 0 5em;
+    line-height: 2em;
+
+}
+#formation{
+    color: #458FBE;
+    border: 1px solid #458FBE ;
+    border-radius: 10px;
+    margin: 0 5em 0 5em;
+    line-height: 2em;
+}
+#conseil_act{
+    color: #98B72F;
+    border: 1px solid #98B72F ;
+    border-radius: 10px;
+    margin: 0 5em 0 5em;
+    line-height: 2em;
+}
+.activities p{
+margin: 0 4em 0 4em;
 }
 footer{
     width: 100%;

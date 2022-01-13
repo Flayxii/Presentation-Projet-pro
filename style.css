@@ -130,6 +130,20 @@ main{
 .activities p{
 margin: 0 4em 0 4em;
 }
+#diffact{
+    padding: 2em 0;
+}
+.context{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10vh 0;
+}
+.context h2{
+    padding-bottom: 4em;
+}
+.context p{
+    line-height: 1.6em;
+}
 footer{
     width: 100%;
     background-color: black;

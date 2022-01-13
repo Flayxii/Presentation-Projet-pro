@@ -78,6 +78,9 @@ main{
     display: flex;
     justify-content: center;
 }
+.amiageacc img{
+    width: 100%;
+}
 #title_2{
     padding-bottom: 5%;
 }

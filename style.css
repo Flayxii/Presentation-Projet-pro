@@ -132,6 +132,7 @@ main{
 }
 .activities p{
 margin: 0 4em 0 4em;
+padding-bottom: 2em;
 }
 #diffact{
     padding: 5em 0 2em 0;
@@ -196,4 +197,32 @@ footer{
         background-color: #821a9c;
         color: white;
       }
+      main{
+          width: 95%;
+      }
+      .maintitle{
+          font-size: 24px;
+          max-width: 95%;
+      }
+      .activities{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+       } 
+       .context{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 95%;
+    }
+    #imgcontext{
+     width: 100%;
+     
+
+
+      
+    }
+
+
+      
 }

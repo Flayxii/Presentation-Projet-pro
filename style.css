@@ -8,6 +8,9 @@ html{
     font-family: 'Roboto', sans-serif;
     /* background-color: #d4d4d4; */
 }
+.topnav{
+    display: none;
+}
 header{
     position: sticky;
     top: 0;
@@ -150,4 +153,47 @@ footer{
     color: #a1a1a1;
     line-height: 3em;
     text-align: center;
+}
+@media screen and (max-width:1400px) {
+  
+        #navfor{
+            display: none;
+        }
+      
+      .topnav {
+        display: block;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background-color: #821a9c;
+         display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: #821a9c;
+        color: white;
+      }
 }

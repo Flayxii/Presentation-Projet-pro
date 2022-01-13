@@ -138,14 +138,19 @@ padding-bottom: 2em;
     padding: 5em 0 2em 0;
 }
 .context{
+
+    padding: 10vh 0;
+}
+.context div{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 10vh 0;
+
 }
 .context h2{
     padding-bottom: 4em;
 }
 .context p{
+    align-self: center;
     line-height: 1.6em;
 }
 footer{
@@ -209,18 +214,15 @@ footer{
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr;
        } 
-       .context{
+       .context div{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr  1fr;
         width: 95%;
     }
     #imgcontext{
      width: 100%;
-     
-
-
-      
+     order: -1;
     }
 
 

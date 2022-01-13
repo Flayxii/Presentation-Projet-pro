@@ -80,6 +80,7 @@ main{
 }
 .imageacc img{
     width: 100%;
+    max-width: 100vw;
 }
 #title_2{
     padding-bottom: 5%;

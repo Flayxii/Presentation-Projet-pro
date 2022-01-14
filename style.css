@@ -211,6 +211,7 @@ padding-bottom: 2em;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
     animation: modalitai 2s ;
+    border-radius: 30px;
   }
 
   @keyframes modalitai {
@@ -319,7 +320,7 @@ padding-bottom: 2em;
   }
   
   .active-cercle {
-    background: rgb(58,36,156);
+    background: #ee4fcb;
   }
   .active {
     opacity: 1!important;
@@ -423,7 +424,7 @@ footer{
 }   
 .cont-slides img {
   width:80%;
-  bottom: 0;
+
   
 
 }   
@@ -432,5 +433,11 @@ footer{
 }
 .commandes button:nth-child(2) {
   right: -40px;
+}
+.modal-content{
+  height: 70%;
+}
+.cercles {
+  top: 150%;
 }
 }

@@ -69,7 +69,7 @@ main{
 }
 #maintitle h1{
     padding: 0.3em 0 0.3em 0;
-   font-weight: 600;
+    font-weight: 600;
 }
 #maintitle p{
     font-style: italic;
@@ -82,6 +82,9 @@ main{
 .imageacc img{
     width: 100%;
     max-width: 100vw;
+}
+#imglogo{
+    width: 60%;
 }
 #title_2{
     padding-bottom: 5%;
@@ -232,7 +235,10 @@ footer{
     .imageacc img{
         width: 100%;
     }
-
+    #imglogo{
+        width: 100%;
+        padding-top: 20px;
+    }
 
       
 }

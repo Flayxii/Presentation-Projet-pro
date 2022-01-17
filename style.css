@@ -175,6 +175,8 @@ padding-bottom: 2em;
 }
 .maquette{
     text-align: center;
+
+    
 }
 .maquette h2{
     padding: 2em;
@@ -258,11 +260,13 @@ padding-bottom: 2em;
   }
   
   .cont-slides img {
-    width: 30%;
+    width:30%;
     height: auto;
     position: absolute;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
+  
+    
   
   }
   .commandes {
@@ -330,6 +334,22 @@ padding-bottom: 2em;
   .active {
     opacity: 1!important;
   }
+  #videom{
+    max-height: 90%;
+    margin-left: 8%;
+  }
+  .modal-content2 {
+    position: fixed;
+    background-color: #000000;
+    margin: 7% 0 0 10%; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    animation: modalitai 2s ;
+    border-radius: 30px;
+  }
+
+  
 
 /* fin Slider */
 footer{
@@ -429,6 +449,7 @@ footer{
 }   
 .cont-slides img {
   width:80%;
+
 
   
 

@@ -160,6 +160,11 @@ padding-bottom: 2em;
 .context p{
     align-self: center;
     line-height: 1.6em;
+    
+}
+#imgcontext{
+  max-width: 80%;
+  padding-left: 2em;
 }
 /* Maquettes */
 .titreh1{
@@ -204,9 +209,9 @@ padding-bottom: 2em;
   
   /* Modal Content/Box */
   .modal-content {
-    position: relative;
+    position: fixed;
     background-color: #000000;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 7% 0 0 10%; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -439,5 +444,11 @@ footer{
 }
 .cercles {
   top: 150%;
+}
+.context p{
+max-width: 80%;
+padding-left: 3em;
+
+  
 }
 }

@@ -170,7 +170,7 @@ padding-bottom: 2em;
 .titreh1{
     font-family: 'Comic Neue', cursive;
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;
     font-size: 42px;
 }
 .maquette{
@@ -178,6 +178,7 @@ padding-bottom: 2em;
 
     
 }
+
 .maquette h2{
     padding: 2em;
 }
@@ -348,7 +349,33 @@ padding-bottom: 2em;
     animation: modalitai 2s ;
     border-radius: 30px;
   }
+.heart{
+  margin-top: 5rem;
+  overflow: hidden;
+  height: 43vh;
 
+}
+.heart img{
+  width: 100%;
+}
+.maquetto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 13vh;
+  right: 15%;
+}
+.maquetto img{
+  width: 100%;
+  height: 10vh;
+}
+.titreh1::after{
+  content: ' ';
+  width: 45%;
+
+
+}
   
 
 /* fin Slider */
@@ -471,5 +498,11 @@ max-width: 80%;
 padding-left: 3em;
 
   
+}
+.maquetto{
+flex-direction: column;
+position: relative;
+top: auto;
+right: auto
 }
 }

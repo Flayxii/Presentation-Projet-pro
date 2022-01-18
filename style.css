@@ -388,6 +388,39 @@ padding-bottom: 2em;
 
 }
 
+/* Presentation Fonctionnelle */
+
+#titru{
+  padding: 0.5rem 0 3rem 0;
+
+}
+#titru hr{
+  
+  width: 45%;
+  margin: auto;
+}
+.parkour img{
+  width: 100%;
+}
+#btnsite{
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  border: 2px solid black;
+  color: orange;
+  background-color: black;
+  border-radius: 10px;
+  position: fixed;
+  top: 20%;
+  left: 8%;
+  font-weight: 600;
+
+}
+#btnsite:hover, #btnsite:focus{
+  border: 2px solid orange;
+  color: black;
+  background-color: orange;
+}
+
 /* fin Slider */
 footer{
     width: 100%;
@@ -395,6 +428,7 @@ footer{
     color: #a1a1a1;
     line-height: 3em;
     text-align: center;
+
 }
 @media screen and (max-width:1400px) {
   

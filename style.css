@@ -23,7 +23,7 @@ header ul{
     justify-content: space-around;
     line-height: 4rem;
     border: black solid 1px;
-    background-color: #e7e7e7;
+    background-color: black;
 
     
 }
@@ -37,20 +37,21 @@ header li{
 
 }
 header li:hover{
-    background-color: rgb(75, 75, 75);
-    border: white 2px solid;
+    background-color: #83178d;
+    /* border: white 2px solid; */
 }
 header li a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 header a{
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .activ{
-    background-color: black;
-    border: white 2px solid;
+    background-color: #83178d;
+    ;
+    /* border: white 2px solid; */
     transition: 0.4s;
 }
 .activ a{
@@ -384,7 +385,7 @@ padding-bottom: 2em;
   margin: auto;
   position: relative;
   bottom: 20px;
-  color: #ee4fcb;
+
 
 }
 
@@ -421,6 +422,37 @@ padding-bottom: 2em;
   background-color: orange;
 }
 
+/* Stratégie marketing */
+
+.h2_perso{
+  padding: 2em 0 2em 0;
+  
+}
+#hrmark{
+  width: 50%;
+  margin: 20px auto;
+  
+}
+.persona img{
+  width: 100%;
+  padding: 20px 0;
+}
+.objectif{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+.objectif p{
+  width: 30%;
+  font-size: 18px;
+  line-height: 1.7em;
+
+}
+.objectif img{
+  width: 60%;
+}
 /* fin Slider */
 footer{
     width: 100%;

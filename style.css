@@ -214,10 +214,10 @@ padding-bottom: 2em;
   .modal-content {
     position: fixed;
     background-color: #000000;
-    margin: 7% 0 0 10%; /* 15% from the top and centered */
+    margin: 7% 0 0 10%;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
     animation: modalitai 2s ;
     border-radius: 30px;
   }

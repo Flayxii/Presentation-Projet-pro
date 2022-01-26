@@ -551,7 +551,11 @@ padding-bottom: 2em;
   height: 600px;
   margin: 100px auto 0;
   position: relative;
-
+ background-color: #000000;
+ 
+}
+.cont-slides2 img{
+  width: 100%;
 }
 /* fin Slider */
 footer{

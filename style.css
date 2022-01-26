@@ -425,8 +425,8 @@ padding-bottom: 2em;
 /* Stratégie marketing */
 
 .h2_perso{
-  padding: 2em 0 2em 0;
-  
+  padding: 3em 0 2em 0;
+  text-align: center;
 }
 #hrmark{
   width: 50%;
@@ -442,6 +442,7 @@ padding-bottom: 2em;
   width: 100%;
   align-items: center;
   justify-content: center;
+  padding-bottom: 3rem;
 
 }
 .objectif p{
@@ -452,6 +453,14 @@ padding-bottom: 2em;
 }
 .objectif img{
   width: 60%;
+ 
+}
+.connai{
+  display: flex;
+  justify-content: center;
+}
+.connai img{
+  width: 100%;
 }
 /* fin Slider */
 footer{
@@ -580,5 +589,11 @@ flex-direction: column;
 position: relative;
 top: auto;
 right: auto
+}
+.objectif{
+  flex-direction: column;
+}
+.objectif p{
+  width: 90%;
 }
 }

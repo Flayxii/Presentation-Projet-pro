@@ -602,7 +602,9 @@ padding-bottom: 2em;
   border-radius: 25px;
   margin-bottom: 10%;
 }
-
+.anie img{
+width: 100%;
+}
 /* fin Slider */
 
 /* Supp de com */
